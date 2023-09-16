@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kallkulator</title>
+  </head>
+  <body>
+    <p>Nama : razqa</p>
+    <p>Kelas : 8A</p>
+    <input type="text" id="display" />
+    <div>
+      <div class="buttons">
+        <button onclick="tampilkanNilaiButton('7')">7</button>
+        <button onclick="tampilkanNilaiButton('8')">8</button>
+        <button onclick="tampilkanNilaiButton('9')">9</button>
+        <button onclick="tampilkanNilaiButton('+')">+</button>
+        <p>
+          <button onclick="tampilkanNilaiButton('4')">4</button>
+          <button onclick="tampilkanNilaiButton('5')">5</button>
+          <button onclick="tampilkanNilaiButton('6')">6</button>
+          <button onclick="tampilkanNilaiButton('-')">-</button>
+        </p>
+        <p>
+          <button onclick="tampilkanNilaiButton('1')">1</button>
+          <button onclick="tampilkanNilaiButton('2')">2</button>
+          <button onclick="tampilkanNilaiButton('3')">3</button>
+          <button onclick="tampilkanNilaiButton('*')">*</button>
+        </p>
+        <button>C</button>
+        <button onclick="tampilkanNilaiButton('0')">0</button>
+        <button onclick="hitung()">=</button>
+        <button onclick="tampilkanNilaiButton('/')">/</button>
+        <p>
+          <button onclick="tampilkanNilaiButton('%')">%</button>
+          <button onclick="tampilkanNilaiButton('**')">**</button>
+          <button onclick="tampilkanNilaiButton('<')"><</button>
+          <button onclick="tampilkanNilaiButton('>')">></button>
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
